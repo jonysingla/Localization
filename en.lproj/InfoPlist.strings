@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Localization
+
+  Created by Jony Singla on 03/02/17.
+  Copyright © 2017 Jony Singla. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "Localization Plist";
+"CFBundleName" = "";

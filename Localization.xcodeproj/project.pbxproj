@@ -12,6 +12,10 @@
 		F09D1E861E439AEF00115ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09D1E841E439AEF00115ABA /* Main.storyboard */; };
 		F09D1E881E439AEF00115ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09D1E871E439AEF00115ABA /* Assets.xcassets */; };
 		F09D1E8B1E439AEF00115ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09D1E891E439AEF00115ABA /* LaunchScreen.storyboard */; };
+		F09D1E981E439C0C00115ABA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F09D1E9A1E439C0C00115ABA /* Localizable.strings */; };
+		F09D1EA81E43A6D400115ABA /* countrycode.txt in Resources */ = {isa = PBXBuildFile; fileRef = F09D1EAA1E43A6D400115ABA /* countrycode.txt */; };
+		F0EF37F71E446A8D00A313C5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0EF37F61E446A8D00A313C5 /* Info.plist */; };
+		F0EF37FE1E4482D300A313C5 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0EF38001E4482D300A313C5 /* Localizable.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +25,16 @@
 		F09D1E851E439AEF00115ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F09D1E871E439AEF00115ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09D1E8A1E439AEF00115ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F09D1E8C1E439AEF00115ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09D1E991E439C0C00115ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F09D1E9B1E439C1400115ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F09D1EA01E43A1D600115ABA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		F09D1EA11E43A1D600115ABA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F09D1EA21E43A1D600115ABA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F09D1EA91E43A6D400115ABA /* de */ = {isa = PBXFileReference; lastKnownFileType = text; name = de; path = de.lproj/countrycode.txt; sourceTree = "<group>"; };
+		F09D1EAB1E43A6E900115ABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/countrycode.txt; sourceTree = "<group>"; };
+		F0EF37F61E446A8D00A313C5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EF37FF1E4482D300A313C5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Localizable.plist; sourceTree = "<group>"; };
+		F0EF38011E4482D700A313C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Localizable.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,8 @@
 		F09D1E741E439AEF00115ABA = {
 			isa = PBXGroup;
 			children = (
+				F0EF38001E4482D300A313C5 /* Localizable.plist */,
+				F09D1E9A1E439C0C00115ABA /* Localizable.strings */,
 				F09D1E7F1E439AEF00115ABA /* Localization */,
 				F09D1E7E1E439AEF00115ABA /* Products */,
 			);
@@ -59,7 +74,8 @@
 				F09D1E841E439AEF00115ABA /* Main.storyboard */,
 				F09D1E871E439AEF00115ABA /* Assets.xcassets */,
 				F09D1E891E439AEF00115ABA /* LaunchScreen.storyboard */,
-				F09D1E8C1E439AEF00115ABA /* Info.plist */,
+				F0EF37F61E446A8D00A313C5 /* Info.plist */,
+				F09D1EAA1E43A6D400115ABA /* countrycode.txt */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -107,6 +123,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = F09D1E741E439AEF00115ABA;
 			productRefGroup = F09D1E7E1E439AEF00115ABA /* Products */;
@@ -124,8 +141,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F09D1E8B1E439AEF00115ABA /* LaunchScreen.storyboard in Resources */,
+				F09D1E981E439C0C00115ABA /* Localizable.strings in Resources */,
+				F0EF37F71E446A8D00A313C5 /* Info.plist in Resources */,
 				F09D1E881E439AEF00115ABA /* Assets.xcassets in Resources */,
+				F0EF37FE1E4482D300A313C5 /* Localizable.plist in Resources */,
 				F09D1E861E439AEF00115ABA /* Main.storyboard in Resources */,
+				F09D1EA81E43A6D400115ABA /* countrycode.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +169,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F09D1E851E439AEF00115ABA /* Base */,
+				F09D1EA01E43A1D600115ABA /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +178,37 @@
 			isa = PBXVariantGroup;
 			children = (
 				F09D1E8A1E439AEF00115ABA /* Base */,
+				F09D1EA11E43A1D600115ABA /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F09D1E9A1E439C0C00115ABA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09D1E991E439C0C00115ABA /* en */,
+				F09D1E9B1E439C1400115ABA /* Base */,
+				F09D1EA21E43A1D600115ABA /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F09D1EAA1E43A6D400115ABA /* countrycode.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09D1EA91E43A6D400115ABA /* de */,
+				F09D1EAB1E43A6E900115ABA /* en */,
+			);
+			name = countrycode.txt;
+			sourceTree = "<group>";
+		};
+		F0EF38001E4482D300A313C5 /* Localizable.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0EF37FF1E4482D300A313C5 /* de */,
+				F0EF38011E4482D700A313C5 /* Base */,
+			);
+			name = Localizable.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +218,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -217,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -260,7 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Localization/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Localization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yourvoice.Localization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Localization/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Localization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yourvoice.Localization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +352,7 @@
 				F09D1E911E439AEF00115ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

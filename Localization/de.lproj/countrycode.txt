@@ -1,0 +1,5 @@
+
+
+
+"GOODMORNING" = "Guten Morgen";
+

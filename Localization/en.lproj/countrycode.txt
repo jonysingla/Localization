@@ -1,0 +1,15 @@
+
+
+
+
+/*
+Localizable.strings
+Localization
+
+Created by Jony Singla on 02/02/17.
+Copyright © 2017 Jony Singla. All rights reserved.
+*/
+
+
+
+"GOODMORNING" = "Good Morning?";

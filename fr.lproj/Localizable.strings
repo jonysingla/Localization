@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Localization
+
+  Created by Jony Singla on 02/02/17.
+  Copyright © 2017 Jony Singla. All rights reserved.
+*/
+
+
+"KEY" = "CONTENT";
+"You like?" = "You like?";
+"Yesterday you sold %@ apps" = "Yesterday you sold %@ apps";
